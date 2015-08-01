@@ -1,0 +1,62 @@
+DEBUG:root:Bootstrap SPARK on c401-303.stampede.tacc.utexas.edu
+DEBUG:root:Spark cluster nodes: ['c401-303\n']
+DEBUG:root:Start Spark
+DEBUG:root:Export SPARK_CONF_DIR to /home1/01131/tg804093/src/supercomputing2015-tutorial/01_hadoop_on_hpc/work/spark-1.4.1-bin-hadoop2.6/conf
+DEBUG:root:Execute: /home1/01131/tg804093/src/supercomputing2015-tutorial/01_hadoop_on_hpc/work/spark-1.4.1-bin-hadoop2.6/sbin/start-all.sh
+Lmod has detected the following error: The following module(s) are unknown:
+"jdk64"
+
+   Please check the spelling or version number. Also try "module spider ..."
+
+Lmod has detected the following error: The following module(s) are unknown:
+"jdk64"
+
+   Please check the spelling or version number. Also try "module spider ..."
+
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+DEBUG:root:stop: False
+slurmstepd: *** JOB 5563083 CANCELLED AT 2015-07-29T21:18:24 *** on c401-303

@@ -1,0 +1,2 @@
+starting org.apache.spark.deploy.master.Master, logging to /home1/01131/tg804093/src/supercomputing2015-tutorial/01_hadoop_on_hpc/work/spark-1.4.1-bin-hadoop2.6/sbin/../logs/spark-tg804093-org.apache.spark.deploy.master.Master-1-c401-303.out
+c401-303: starting org.apache.spark.deploy.worker.Worker, logging to /home1/01131/tg804093/src/supercomputing2015-tutorial/01_hadoop_on_hpc/work/spark-1.4.1-bin-hadoop2.6/sbin/../logs/spark-tg804093-org.apache.spark.deploy.worker.Worker-1-c401-303.stampede.tacc.utexas.edu.out
