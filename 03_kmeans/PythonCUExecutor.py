@@ -11,7 +11,7 @@ if __name__ == "__main__":
         sys.exit(1)
     
     pcu_file = sys.argv[1]
-    print "Read: %s"%pcu_file
+    #print "Read: %s"%pcu_file
     with open(pcu_file, "r") as f:
         pcu_cp = f.read()
     
@@ -19,4 +19,4 @@ if __name__ == "__main__":
     pcu_from_cp = pickle.loads(pcu_cp)
     result = pcu_from_cp.execute()
 
-    print result
+    print str(result.tolist())
