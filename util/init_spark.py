@@ -7,7 +7,7 @@ else:
     SPARK_HOME=os.environ["SPARK_HOME"]
     
 
-print "Init Spark: " + SPARK_HOME
+#print "Init Spark: " + SPARK_HOME
 
 os.environ["PYSPARK_PYTHON"]="/opt/anaconda/bin/python"
 os.environ["PYSPARK_DRIVER_PYTHON"]="ipython"
