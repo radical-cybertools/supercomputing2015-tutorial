@@ -26,4 +26,4 @@ In this tutorial, we explore a light-weight and extensible way to provide the be
 
 ## Practical Exercises:
 
-<https://github.com/radical-cybertools/supercomputing2015-tutorial/wiki/Supercomputing-Tutorial-Wiki>
+[see Wiki](https://github.com/radical-cybertools/supercomputing2015-tutorial/wiki)
