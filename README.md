@@ -15,10 +15,7 @@ In this tutorial, we explore a light-weight and extensible way to provide the be
 
 2. Introduction to Pilot-Abstraction
 
-3. Exercise 1: Pilot-Abstraction on HPC and ABDS
-
-4. Exercise 2: KMeans
-
+3.  Advanced Analytics with Apache Hadoop, Spark and Pilot-Abstraction
 
 ## Practical Exercises:
 
