@@ -13,11 +13,11 @@ In this tutorial, we explore a light-weight and extensible way to provide the be
 
 1. Introduction to Apache Hadoop and HPC 
 
-2. Introduction to Pilot-Abstraction
+2. Exercise 1: Introduction to Hadoop and Spark
 
-3. Exercise 1: Pilot-Abstraction on HPC and ABDS
+3. Exercise 2: Pilot-Abstraction on HPC and ABDS
 
-4. Exercise 2: KMeans
+4. Exercise 3: KMeans
 
 5. Advanced scientific applications
 
