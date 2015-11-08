@@ -33,5 +33,9 @@ if __name__ == "__main__":
     points = points.loc[:,'SepalLength':'PetalWidth']
 
     data = mapper(points, clusters)
-    print np.array_str(data)
+    #print np.array_str(data)
+    print np.array2string(data, separator=",")
+    
+    
+    #print np.array_repr(data)
     #print(str(data))
