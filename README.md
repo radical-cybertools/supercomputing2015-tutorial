@@ -19,10 +19,6 @@ In this tutorial, we explore a light-weight and extensible way to provide the be
 
 4. Exercise 2: KMeans
 
-5. Advanced scientific applications
-
-
-
 
 ## Practical Exercises:
 
