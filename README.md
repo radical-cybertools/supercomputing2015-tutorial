@@ -1,6 +1,6 @@
 # Supercomputing 2015 Tutorial
 
-Shantenu Jha and Andre Luckow
+Shantenu Jha, Andre Luckow, Ioannis Paraskevakos
 
 ## Overview
 
