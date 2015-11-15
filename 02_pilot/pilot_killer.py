@@ -1,14 +1,23 @@
 import os
 import commands
 
-def pilot_killer(user,rp_session_id,pilot):
+def pilot_killer():
 
 
-    # This can be run from root. If you want to run from user space delete
-    # the user parameter in the function definition and uncomment the next line
-    #user=os.getenv('USER')
-    bootstrapper3_file=open('/home/%s/radical.pilot.sandbox/%s-%s/agent_0.bootstrap_3.log'%(user,rp_session_id,pilot),'r')
-    bootstrapper3_lines=bootstrapper3_file.readlines()
-    bootstrapper3_pid=int(bootstrapper3_lines[1].split('pid:')[1])
-    os.kill(bootstrapper3_pid,15)
+    user=os.getenv('USER')
+    sandbox = os.listdir('/home/%s/radical.pilot.sandbox/'%user)
+    for folder in sandbox:
+        if folder.startswith('rp.'):
+            bootstrapper3_file=open('/home/%s/radical.pilot.sandbox/%s/agent_0.bootstrap_3.log'%(user,folder),'r')
+            bootstrapper3_lines=bootstrapper3_file.readlines()
+            bootstrapper3_pid=int(bootstrapper3_lines[1].split('pid:')[1])
+            try:
+                os.kill(bootstrapper3_pid,15)
+            except:
+                pass
 
+
+if __name__ == "__main__":
+
+    print 'Killing all active pilots'
+    pilot_killer()
